@@ -1,0 +1,32 @@
+{
+  "name": "dummyrepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "mocha"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhyuen/dummyrepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhyuen/dummyrepo/issues"
+  },
+  "homepage": "https://github.com/rhyuen/dummyrepo#readme",
+  "dependencies": {
+    "express-session": "1.14.1",
+    "mongoose": "4.6.4",
+    "nconf": "0.8.4",
+    "passport": "0.3.2",
+    "passport-github": "1.1.0",
+    "passport-linkedin": "1.0.0",
+    "passport-twitter": "1.0.4"
+  }
+}
